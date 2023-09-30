@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:checked ~ .toggle__dot {
+  transform: translateX(100%);
+}
+.toggle__dot {
+  transition: transform 0.3s ease-in-out;
+}
