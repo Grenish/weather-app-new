@@ -9,7 +9,7 @@ const TimeAndLocation = () => {
         </p>
       </div>
         <div className="flex items-center justify-center my-3">
-            <p className="text-white text-xl font-extrabold">
+            <p className="text-white text-2xl font-extrabold">
                 New York, USA
             </p>
         </div>
